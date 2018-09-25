@@ -5,11 +5,14 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url("images/dancefloor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineUpButton, .danceAgain, .addBearDancer, .addBullDancer {
   padding:5px 12px;
   float:right;
 }
@@ -25,3 +28,48 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.dancer1{
+  background-image: url("images/dancer1.jpg");
+  background-repeat: no-repeat;
+  background-size: fill;
+  height: 396px;
+  width: 378px;
+  border: none;
+  border-radius: 0;
+}
+.dancer2{
+  background-image: url("images/dancer2.jpg");
+  background-repeat: no-repeat;
+}
+.dancer3{
+  background-image: url("images/dancer3.jpg");
+  background-repeat: no-repeat;
+}
+.dancer4{
+  background-image: url("images/dancer4.jpeg");
+  background-repeat: no-repeat;
+}
+.dancer5{
+  background-image: url("images/dancer5.jpg");
+  background-repeat: no-repeat;
+}
+.dancer6{
+  background-image: url("images/dancer6.jpeg");
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  border : none;
+}
+.dancer7{
+  background-image: url("images/dancer7.jpg");
+  background-repeat: no-repeat;
+  height: 396px;
+  width: 378px;
+  border: none;
+  border-radius: 0;
+}
+
+.greenDancer { 
+  border-color: green; 
+}
+
