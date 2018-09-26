@@ -33,3 +33,15 @@ describe('blinkyDancer', function() {
     });
   });
 });
+
+describe('New classes Testing', function() {
+  it('should be able make bear dancer that inherits the bear dancer class property ', function() {
+    let bearDancerTest = new bearDancer(20, 20);
+    expect(bearDancerTest.$node.hasClass('bearDancer')).to.be.equal(true);
+  });
+
+  it('should be able make bull dancer that inherits the bull dancer class property ', function() {
+    let bullDancerTest = new bullDancer(20, 20);
+    expect(bullDancerTest.$node.hasClass('bullDancer')).to.be.equal(true);
+  });
+});
